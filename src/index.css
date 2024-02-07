@@ -1,0 +1,165 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  
+}
+.ImgTogether{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+ .Img2{
+  max-width: 50%;
+  height: 500px;
+}
+.Img3{
+  max-width: 50%; 
+  height: 500px;
+
+}
+.ImageDeFond {
+ 
+  background-image: 
+  url(
+  "/src/components/image/Capture d'écran 2023-12-05 154148.png");
+  background-attachment: fixed;
+  background-size:  cover;
+ background-position: center center;
+  background-repeat:no-repeat; 
+  min-height: 100vh;
+}
+
+
+
+.button {
+  background-color: #297fb8;
+  color: #fff;
+  padding: 10px 20px;
+  border: 200px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  
+}
+
+.button:hover {
+  background-color: #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.barre_haut{
+  margin-top: -25px;
+  border-radius: 3px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: hsl(0, 0%, 100%);
+  height: 50px;
+  
+}
+.barre_bas{
+    
+  width: 100%;
+  background-color: #13164f;
+  color: #000000;
+  height: 90px;
+ 
+ 
+} 
+
+.App-link {
+  color: #d6d6c8;
+  margin: 10px;
+}
+.App-link:hover {
+  color: #578fad; 
+  text-decoration: underline; 
+}
+.App-link2 {
+  color: #46b0d6;
+  margin: 10px;
+}
+.App-link2:hover {
+  color: #7e254f; 
+  text-decoration: underline; 
+}
